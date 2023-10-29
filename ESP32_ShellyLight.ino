@@ -322,7 +322,7 @@ void loop()
         myBot.sendMessage(msg, "Luz en color Verde!");
         executeCommand(LIGHT_GREEN);
       }
-      //TODO poner tb rosa
+
       else if (msgText.equals("/auto")) {       
         myBot.sendMessage(msg, "Modo Automatico Activado!");
         executeCommand(LIGHT_SENSOR_AUTO);
